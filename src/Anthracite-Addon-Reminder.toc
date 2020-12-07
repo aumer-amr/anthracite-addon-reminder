@@ -1,0 +1,9 @@
+## Interface: 90002
+## Title: Anthracite - Addon Reminder
+## Author: Aumer
+## Version: 0.0.1
+## SavedVariables: AMR_AddonReminder_NextFire, AMR_AddonReminder_LastFire
+## DefaultState: Enabled
+## LoadOnDemand: 0
+Init.lua
+Core.lua

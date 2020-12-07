@@ -1,0 +1,24 @@
+{
+  "name": "anthracite-addon-reminder",
+  "addon-name": "Anthracite-Addon-Reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev.js",
+  "scripts": {
+    "dev-copy": "node ./dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aumer-amr/anthracite-addon-reminder.git"
+  },
+  "author": "Aumer",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/aumer-amr/anthracite-addon-reminder/issues"
+  },
+  "homepage": "https://github.com/aumer-amr/anthracite-addon-reminder#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ncp": "^2.0.0"
+  }
+}

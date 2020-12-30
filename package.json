@@ -1,11 +1,12 @@
 {
   "name": "anthracite-addon-reminder",
   "addon-name": "Anthracite-Addon-Reminder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dev.js",
   "scripts": {
-    "dev-copy": "node ./dev.js"
+    "dev-copy": "node ./dev.js",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,12 @@
   },
   "homepage": "https://github.com/aumer-amr/anthracite-addon-reminder#readme",
   "dependencies": {
+    "del": "^6.0.0",
     "dotenv": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-zip": "^5.0.2",
     "ncp": "^2.0.0"
   }
 }

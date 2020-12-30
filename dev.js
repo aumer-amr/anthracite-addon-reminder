@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+//TODO: rewrite into gulp
+
 const package = require('./package.json');
 const fs = require('fs');
 const path = require('path');
